@@ -16,11 +16,11 @@
   <center>
       <form method="post" action='../controller/addCourseCtrl.php' enctype="multipart/form-data" onsubmit="return validateAddCourse();" novalidate>
         <fieldset style="width:50%">
-          <legend>Course Information</legend>
+          <legend>Course Information:</legend>
           <table>
             <tr>
               <th>
-                <label for="chapter_number">Chapter Number:</label>
+                <label for="chapter_number">Chapter No:</label>
               </th>
               <td>
                 <input type="number" name="chapter_number" id="chapter_number" value="<?php echo isset($_POST['chapter_number']) ? $_POST['chapter_number'] : ''; ?>">
