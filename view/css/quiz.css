@@ -1,0 +1,114 @@
+body {
+  background-color: #add8e6;
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+
+
+h2 {
+  color: rgb(231, 103, 172);
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+th, td {
+  
+  padding: 10px;
+  text-align: center;
+  background-color: #add8e6;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+th {
+  background-color: #add8e6;
+  color: white;
+}
+
+td {
+  background-color: rgb(247, 206, 227);
+  color: rgb(0, 168, 247);
+}
+
+button {
+  padding: 8px;
+  margin: 3px;
+  background-color: rgb(231, 103, 172);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background-color: rgb(199, 0, 99);
+}
+
+a {
+  color: rgb(151, 2, 81);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:active {
+  background-color: rgb(191, 248, 51);
+}
+
+input[type="submit"] {
+  width: 150px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgb(231, 103, 172);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(199, 0, 99);
+}
+
+input[type="submit"]:active {
+  background-color: rgb(191, 248, 51);
+}
+span {
+  color: rgb(151, 2, 81);
+}
+.backButton{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: rgb(231, 103, 172);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+.backButton:hover {
+  background-color: rgb(199, 0, 99); 
+}
+.backButton:active {
+  background-color: rgb(191, 248, 51); 
+}

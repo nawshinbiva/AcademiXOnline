@@ -1,0 +1,110 @@
+body {
+  background-color: #add8e6;
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h2 {
+  color: rgb(231, 103, 172);
+  margin-top: 50px;
+}
+
+.table-container {
+  width: 75%;
+  margin-top: 50px;
+  overflow: auto;
+  height: 380px; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  text-align: left;
+  background-color: #add8e6;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+th {
+  background-color: rgb(231, 103, 172);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+td {
+  background-color: rgb(247, 206, 227);
+  color: rgb(0, 168, 247);
+}
+
+td ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+td ul li {
+  margin-bottom: 5px;
+}
+
+
+button {
+  width: 80px;
+  padding: 8px;
+  margin: 3px;
+  background-color: rgb(231, 103, 172);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background-color: rgb(199, 0, 99);
+}
+
+a {
+  color: rgb(151, 2, 81);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:active{
+  background-color: rgb(191, 248, 51);
+}
+span {
+      color:rgb(151, 2, 81);
+  }
+  .backButton{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(231, 103, 172);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+  }
+  .backButton:hover {
+    background-color: rgb(199, 0, 99); 
+  }
+  .backButton:active {
+    background-color: rgb(191, 248, 51); 
+  }

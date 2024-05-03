@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(215, 235, 243);
+  color: #000;
+  margin: 0;
+  
+}
+
+h1 {
+  margin: 20px;
+  color: #d80375; 
+}
+
+div {
+  margin: 0;
+}
+.dash {
+  margin-top: 100px;
+}
+
+.dashList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashList li {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 42%;
+  display: block;
+  text-align: left;
+}
+
+.dashList a {
+  text-decoration: none;
+  color: rgb(0, 168, 247);
+  font-weight: bold;
+}
+
+.dashList i {
+  margin-right: 10px;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  object-fit: cover;
+  transition: box-shadow 0.3s;
+}
+.profile-picture img:hover {
+  box-shadow: 0 0 12px rgba(216, 3, 117, 0.5); 
+  cursor: pointer; 
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}

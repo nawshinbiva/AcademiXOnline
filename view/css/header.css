@@ -1,0 +1,38 @@
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 10px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLOGO {
+  text-align: center;
+}
+
+.headernavigation {
+  display: flex;
+  align-items: center;
+  
+}
+
+.headerli {
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-right: 10px;
+}
+
+ul a {
+  text-decoration: none; 
+  color: rgb(0, 168, 247);
+}
+
+.logout {
+  margin-left: auto; /* Change margin-right to margin-left */
+}
